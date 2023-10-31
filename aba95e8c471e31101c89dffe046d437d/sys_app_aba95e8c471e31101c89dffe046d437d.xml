@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>true</can_edit_in_studio>
+        <enforce_license>none</enforce_license>
+        <guided_setup_guid/>
+        <hide_on_ui>false</hide_on_ui>
+        <ide_created>AES</ide_created>
+        <installed_as_dependency>false</installed_as_dependency>
+        <js_level>es_latest</js_level>
+        <licensable>true</licensable>
+        <license/>
+        <license_category>none</license_category>
+        <license_definition/>
+        <license_model>none</license_model>
+        <logo>98b9120c471e31101c89dffe046d4327</logo>
+        <menu/>
+        <name>Finance Service Management</name>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_1106871_financ_0</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description>This application will provide a structured environment for financial requests</short_description>
+        <source>x_1106871_financ_0</source>
+        <store_correlation_id/>
+        <store_url/>
+        <subscription_entitlement/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 15:49:15</sys_created_on>
+        <sys_id>aba95e8c471e31101c89dffe046d437d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 15:49:18</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <uninstall_blocked>false</uninstall_blocked>
+        <user_role/>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=aba95e8c471e31101c89dffe046d437d"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>pngtree-financial-consulting-logo-vector-template-png-image_2132677.jpg</file_name>
+        <hash>0ee83e1af764270a73ab90ca49f41cc431e70e7de5622cf4702e58692b7a95e8</hash>
+        <image_height>360</image_height>
+        <image_width>360</image_width>
+        <size_bytes>6874</size_bytes>
+        <size_compressed>6552</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 15:49:18</sys_created_on>
+        <sys_id>98b9120c471e31101c89dffe046d4327</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 15:49:18</sys_updated_on>
+        <table_name>sys_app</table_name>
+        <table_sys_id>aba95e8c471e31101c89dffe046d437d</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="pngtree-financial-consulting-logo-vector-template-png-image_2132677.jpg" sys_id="98b9120c471e31101c89dffe046d4327">98b9120c471e31101c89dffe046d4327</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 15:49:18</sys_created_on>
+        <sys_id>d8b9120c471e31101c89dffe046d4327</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>8724</length>
+        <position>1</position>
+        <sys_attachment display_value="pngtree-financial-consulting-logo-vector-template-png-image_2132677.jpg" sys_id="98b9120c471e31101c89dffe046d4327">98b9120c471e31101c89dffe046d4327</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 15:49:18</sys_created_on>
+        <sys_id>5cb9120c471e31101c89dffe046d4327</sys_id>
+    </sys_attachment_doc>
+</record_update>
