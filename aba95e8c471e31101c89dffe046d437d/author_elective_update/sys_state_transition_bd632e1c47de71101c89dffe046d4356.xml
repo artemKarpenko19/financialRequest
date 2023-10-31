@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_state_transition">
+    <sys_state_transition action="DELETE">
+        <description>Manage states for financial requests</description>
+        <enter_condition/>
+        <exit_condition/>
+        <order/>
+        <state>0</state>
+        <state_label>New</state_label>
+        <state_model display_value="Finance Request State Model">5f3cca10479e71101c89dffe046d4365</state_model>
+        <sys_class_name>sys_state_transition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-31 11:11:49</sys_created_on>
+        <sys_id>bd632e1c47de71101c89dffe046d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_state_transition_bd632e1c47de71101c89dffe046d4356</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-31 11:11:49</sys_updated_on>
+        <terminal_state>false</terminal_state>
+    </sys_state_transition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</application>
+        <file_path/>
+        <instance_id>73a07ff9db2d3fc02f68c5970596196a</instance_id>
+        <instance_name>dev86177</instance_name>
+        <name>sys_state_transition_bd632e1c47de71101c89dffe046d4356</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_state_transition"><sys_state_transition action="INSERT_OR_UPDATE"><description>Manage states for financial requests</description><enter_condition/><exit_condition/><order/><state>0</state><state_label>New</state_label><state_model display_value="Finance Request State Model">5f3cca10479e71101c89dffe046d4365</state_model><sys_class_name>sys_state_transition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-31 11:11:49</sys_created_on><sys_id>bd632e1c47de71101c89dffe046d4356</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New</sys_name><sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package><sys_policy/><sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope><sys_update_name>sys_state_transition_bd632e1c47de71101c89dffe046d4356</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-31 11:11:49</sys_updated_on><terminal_state>false</terminal_state></sys_state_transition></record_update>]]></payload>
+        <payload_hash>-467740741</payload_hash>
+        <record_name>New</record_name>
+        <reverted_from/>
+        <source>87e24254475e71101c89dffe046d435f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-31 11:11:49</sys_created_on>
+        <sys_id>adc36e1c47de71101c89dffe046d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b856ec00d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-31 11:11:49</sys_updated_on>
+        <type>State Transition</type>
+        <update_guid>e1c36e1c56de7110e5b664faa11607b8</update_guid>
+        <update_guid_history>e1c36e1c56de7110e5b664faa11607b8:-467740741</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-31 11:12:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_state_transition">sys_state_transition</sys_db_object>
+        <sys_id>55ee4ef636024ab58e3a93581dadd7e9</sys_id>
+        <sys_metadata>bd632e1c47de71101c89dffe046d4356</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_scope_delete display_value="">5ec3e6f2d1604562a3d19c2d8639c069</sys_scope_delete>
+        <sys_update_name>sys_state_transition_bd632e1c47de71101c89dffe046d4356</sys_update_name>
+        <sys_update_version display_value="sys_state_transition_bd632e1c47de71101c89dffe046d4356">adc36e1c47de71101c89dffe046d43b8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-31 11:12:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
