@@ -19,5 +19,11 @@
                 <element dependent_value="general_requests" inactive_on_update="false" label="External" sequence="6" value="external"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="awaiting approving" label="On Hold Reason" mandatory="true" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Awaiting approving" sequence="0" value="awaiting approving"/>
+                <element inactive_on_update="false" label="Awaiting  additional documents" sequence="1" value="awaiting  additional documents"/>
+            </choice>
+        </element>
     </element>
 </database>
