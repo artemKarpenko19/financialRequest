@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>comments</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-08 14:27:25</sys_created_on>
+        <sys_id>be3d940b475e7d101c89dffe046d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>comments</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_be3d940b475e7d101c89dffe046d43c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-08 14:27:25</sys_updated_on>
+        <table>x_1106871_financ_0_finance_request</table>
+        <ui_policy display_value="Form is read only when state is closed complete">492998c3475e7d101c89dffe046d4386</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
