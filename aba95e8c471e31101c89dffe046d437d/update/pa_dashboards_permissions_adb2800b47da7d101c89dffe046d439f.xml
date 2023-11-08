@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Finance Requests">3da0808747da7d101c89dffe046d4311</dashboard>
+        <delete>false</delete>
+        <group display_value="Finance Admin" name="Finance Admin">c916c658475e71101c89dffe046d434b</group>
+        <identity>c916c658475e71101c89dffe046d434b</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-08 12:31:26</sys_created_on>
+        <sys_id>adb2800b47da7d101c89dffe046d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c916c658475e71101c89dffe046d434b</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_adb2800b47da7d101c89dffe046d439f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-08 12:31:26</sys_updated_on>
+        <type>2</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>
