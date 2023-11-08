@@ -65,11 +65,11 @@
 <p style="text-align: left;"><span style="font-size: 12pt;">Finance Team</span></p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Request Status and State Changed</name>
+        <name>Request Status and State Changed (AT)</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>assigned_to,watch_list</recipient_fields>
+        <recipient_fields>assigned_to</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -84,15 +84,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>26f7feae47923d101c89dffe046d4379</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Request Status and State Changed</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Request Status and State Changed (AT)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
         <sys_update_name>sysevent_email_action_26f7feae47923d101c89dffe046d4379</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-07 14:17:45</sys_updated_on>
+        <sys_updated_on>2023-11-08 15:07:47</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
