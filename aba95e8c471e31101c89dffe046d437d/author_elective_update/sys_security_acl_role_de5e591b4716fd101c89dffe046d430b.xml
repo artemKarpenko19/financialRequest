@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 13:51:41</sys_created_on>
+        <sys_id>de5e591b4716fd101c89dffe046d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>task.x_1106871_financ_0.admin</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_security_acl display_value="task">181e1dd74716fd101c89dffe046d430a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_de5e591b4716fd101c89dffe046d430b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 13:51:41</sys_updated_on>
+        <sys_user_role display_value="x_1106871_financ_0.admin" name="x_1106871_financ_0.admin">b3a95e8c471e31101c89dffe046d438a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</application>
+        <file_path/>
+        <instance_id>73a07ff9db2d3fc02f68c5970596196a</instance_id>
+        <instance_name>dev86177</instance_name>
+        <name>sys_security_acl_role_de5e591b4716fd101c89dffe046d430b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-09 13:51:41</sys_created_on><sys_id>de5e591b4716fd101c89dffe046d430b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>task.x_1106871_financ_0.admin</sys_name><sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package><sys_policy/><sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope><sys_security_acl display_value="task">181e1dd74716fd101c89dffe046d430a</sys_security_acl><sys_update_name>sys_security_acl_role_de5e591b4716fd101c89dffe046d430b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-09 13:51:41</sys_updated_on><sys_user_role display_value="x_1106871_financ_0.admin" name="x_1106871_financ_0.admin">b3a95e8c471e31101c89dffe046d438a</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-2117417245</payload_hash>
+        <record_name>task.x_1106871_financ_0.admin</record_name>
+        <reverted_from/>
+        <source>182a0a96479eb9101c89dffe046d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 13:51:42</sys_created_on>
+        <sys_id>0bae1d1b4716fd101c89dffe046d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bb45a59d90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 13:51:42</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>4fae1d1bca16fd102c0fa219a7c54dc5</update_guid>
+        <update_guid_history>4fae1d1bca16fd102c0fa219a7c54dc5:-2117417245</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="task.x_1106871_financ_0.admin">2e07e5174756fd101c89dffe046d4393</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 14:28:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>4925d0af07dd4f649848e7ab6b74e190</sys_id>
+        <sys_metadata>de5e591b4716fd101c89dffe046d430b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>task.x_1106871_financ_0.admin</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_scope_delete display_value="">5ec3e6f2d1604562a3d19c2d8639c069</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_de5e591b4716fd101c89dffe046d430b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_de5e591b4716fd101c89dffe046d430b">0bae1d1b4716fd101c89dffe046d43c6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 14:28:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
