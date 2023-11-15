@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <data_source/>
+        <description/>
+        <macroponent display_value="Single score">d24d53f60350de7a652caf3188a46ed2</macroponent>
+        <name>New Finance Requests per month</name>
+        <properties>{"filterConfigurations":[],"scoreSize":"md","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"newReporting":false,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","contextMenuActions":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","dateFormat":"default","description":"","configVersion":"23.0.0-ci-SNAPSHOT","colorConfig":{"type":"default"},"headerTitle":"New Finance Request per month","dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Finance Request","sourceType":"table","tableOrViewName":"x_1106871_financ_0_finance_request","filterQuery":"active=true^opened_atONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzExMDY4NzFfZmluYW5jXzBfZmluYW5jZV9yZXF1ZXN0MTcwMDA0NjU2NDMwOQ==","dataCategories":["trend","group","simple"]}],"metrics":[{"dataSource":"dGFibGV4XzExMDY4NzFfZmluYW5jXzBfZmluYW5jZV9yZXF1ZXN0MTcwMDA0NjU2NDMwOQ==","id":"ZEdGaWJHVjRYekV4TURZNE56RmZabWx1WVc1alh6QmZabWx1WVc1alpWOXlaWEYxWlhOME1UY3dNREEwTmpVMk5ETXdPUT09MTcwMDA0NjU2NTk4MA==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}]}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-15 11:11:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6973bfc9472639501c89dffe046d438a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Finance Requests per month</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>par_visualization_6973bfc9472639501c89dffe046d438a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-15 11:11:08</sys_updated_on>
+        <title/>
+        <type>Single score</type>
+    </par_visualization>
+</record_update>
