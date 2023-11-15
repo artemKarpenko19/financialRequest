@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="financial-workspace Search Profile">75fbdda464ae3550f5f93f5757ffe443</profile>
+        <search_source display_value="Finance Request">f2fb51e447ae35501c89dffe046d432f</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-13 10:52:20</sys_created_on>
+        <sys_id>b2fb51e447ae35501c89dffe046d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>financial-workspace Search Profile.Finance Request</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_b2fb51e447ae35501c89dffe046d4332</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-13 10:52:20</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

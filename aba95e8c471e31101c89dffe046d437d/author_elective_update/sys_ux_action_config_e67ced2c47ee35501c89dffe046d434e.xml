@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_action_config">
+    <sys_ux_action_config action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>Finance Request List Actions</name>
+        <sys_class_name>sys_ux_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-13 12:04:44</sys_created_on>
+        <sys_id>e67ced2c47ee35501c89dffe046d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance Request List Actions</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_ux_action_config_e67ced2c47ee35501c89dffe046d434e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-13 12:04:44</sys_updated_on>
+    </sys_ux_action_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</application>
+        <file_path/>
+        <instance_id>73a07ff9db2d3fc02f68c5970596196a</instance_id>
+        <instance_name>dev86177</instance_name>
+        <name>sys_ux_action_config_e67ced2c47ee35501c89dffe046d434e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_action_config"><sys_ux_action_config action="INSERT_OR_UPDATE"><active>true</active><description/><name>Finance Request List Actions</name><sys_class_name>sys_ux_action_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-13 12:04:44</sys_created_on><sys_id>e67ced2c47ee35501c89dffe046d434e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Finance Request List Actions</sys_name><sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package><sys_policy/><sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope><sys_update_name>sys_ux_action_config_e67ced2c47ee35501c89dffe046d434e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-13 12:04:44</sys_updated_on></sys_ux_action_config></record_update>]]></payload>
+        <payload_hash>-371804476</payload_hash>
+        <record_name>Finance Request List Actions</record_name>
+        <reverted_from/>
+        <source>182a0a96479eb9101c89dffe046d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-13 12:04:44</sys_created_on>
+        <sys_id>1f8c216c47ee35501c89dffe046d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bc891dc5c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-13 12:04:44</sys_updated_on>
+        <type>UX Actions Configuration</type>
+        <update_guid>578cad2ce4ee35500812a65594651271</update_guid>
+        <update_guid_history>578cad2ce4ee35500812a65594651271:-371804476</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-13 12:19:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_action_config">sys_ux_action_config</sys_db_object>
+        <sys_id>62e3c1f203564ac08c70610ed961b684</sys_id>
+        <sys_metadata>e67ced2c47ee35501c89dffe046d434e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance Request List Actions</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_scope_delete display_value="">5ec3e6f2d1604562a3d19c2d8639c069</sys_scope_delete>
+        <sys_update_name>sys_ux_action_config_e67ced2c47ee35501c89dffe046d434e</sys_update_name>
+        <sys_update_version display_value="sys_ux_action_config_e67ced2c47ee35501c89dffe046d434e">1f8c216c47ee35501c89dffe046d43f8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-13 12:19:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

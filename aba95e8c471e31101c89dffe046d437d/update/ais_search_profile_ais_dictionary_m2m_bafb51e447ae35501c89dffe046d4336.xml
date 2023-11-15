@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_1106871_financ_0_financial_workspace_search_profile_default_spell_check_dictionary">fafb51e447ae35501c89dffe046d4333</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="financial-workspace Search Profile">75fbdda464ae3550f5f93f5757ffe443</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-13 10:52:20</sys_created_on>
+        <sys_id>bafb51e447ae35501c89dffe046d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1106871_financ_0_financial_workspace_search_profile_default_spell_check_dictionary.financial-workspace Search Profile</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_bafb51e447ae35501c89dffe046d4336</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-13 10:52:20</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

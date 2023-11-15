@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Financial Workspace">f1fbdda445ae355049aae8a6a2e85f3c</dashboard>
+        <experience display_value="Financial Workspace">b1fbdda429ae355060262cfaffd88243</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-13 10:52:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f9fbdda4b1ae3550a56ab99eaaa1f53a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>par_dashboard_visibility_f9fbdda4b1ae3550a56ab99eaaa1f53a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-13 10:52:16</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>

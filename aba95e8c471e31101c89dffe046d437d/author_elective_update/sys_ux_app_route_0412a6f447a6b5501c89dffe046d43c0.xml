@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Financial Workspace App Config">39fbdda493ae3550a797658f0d597d43</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Attachment</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Finance Request Record Page">7efb51e447ae35501c89dffe046d4391</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar_1</parent_macroponent_composition_element_id>
+        <route_type>attachment</route_type>
+        <screen_type display_value="Attachment">4812a6f047a6b5501c89dffe046d431e</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 10:37:01</sys_created_on>
+        <sys_id>0412a6f447a6b5501c89dffe046d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachment</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_ux_app_route_0412a6f447a6b5501c89dffe046d43c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 10:37:01</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=0412a6f447a6b5501c89dffe046d43c0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</application>
+        <file_path/>
+        <instance_id>73a07ff9db2d3fc02f68c5970596196a</instance_id>
+        <instance_name>dev86177</instance_name>
+        <name>sys_ux_app_route_0412a6f447a6b5501c89dffe046d43c0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Financial Workspace App Config">39fbdda493ae3550a797658f0d597d43</app_config><description/><extension_point/><fields/><icon/><name>Attachment</name><optional_parameters/><order>0</order><parent_macroponent display_value="Finance Request Record Page">7efb51e447ae35501c89dffe046d4391</parent_macroponent><parent_macroponent_composition_element_id>contextual_sidebar_1</parent_macroponent_composition_element_id><route_type>attachment</route_type><screen_type display_value="Attachment">4812a6f047a6b5501c89dffe046d431e</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-14 10:37:01</sys_created_on><sys_id>0412a6f447a6b5501c89dffe046d43c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Attachment</sys_name><sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package><sys_policy/><sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope><sys_update_name>sys_ux_app_route_0412a6f447a6b5501c89dffe046d43c0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-14 10:37:01</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=0412a6f447a6b5501c89dffe046d43c0"/></record_update>]]></payload>
+        <payload_hash>1264625441</payload_hash>
+        <record_name>Attachment</record_name>
+        <reverted_from/>
+        <source>182a0a96479eb9101c89dffe046d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 10:37:01</sys_created_on>
+        <sys_id>8c12a6f447a6b5501c89dffe046d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bcd67e9d70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 10:37:01</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>c012a6f4baa6b5501a8a998ecb6bfbc2</update_guid>
+        <update_guid_history>c012a6f4baa6b5501a8a998ecb6bfbc2:1264625441</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-14 10:58:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>09a0dd9705934ede82cba7c83fdb3e79</sys_id>
+        <sys_metadata>0412a6f447a6b5501c89dffe046d43c0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachment</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_scope_delete display_value="">5ec3e6f2d1604562a3d19c2d8639c069</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_0412a6f447a6b5501c89dffe046d43c0</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_0412a6f447a6b5501c89dffe046d43c0">8c12a6f447a6b5501c89dffe046d43c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-14 10:58:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

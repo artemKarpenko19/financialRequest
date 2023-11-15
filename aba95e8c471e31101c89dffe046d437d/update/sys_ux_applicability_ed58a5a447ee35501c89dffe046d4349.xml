@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1106871_financ_0.Finance Request Dispatching Group Audience</api_name>
+        <description/>
+        <name>Finance Request Dispatching Group Audience</name>
+        <role_names/>
+        <roles>b3a95e8c471e31101c89dffe046d438a,7fa95e8c471e31101c89dffe046d4385</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-13 11:47:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ed58a5a447ee35501c89dffe046d4349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance Request Dispatching Group Audience</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_ux_applicability_ed58a5a447ee35501c89dffe046d4349</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-13 11:47:04</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>
