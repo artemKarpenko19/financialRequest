@@ -3,7 +3,7 @@
         <controller_preset/>
         <includes/>
         <macroponent display_value="Home">f9fbdda435ae3550f4354eb8c33b0c34</macroponent>
-        <name>Debug script</name>
+        <name>changeListDisplayPanes</name>
         <preset/>
         <required_translations>[
     
@@ -16,21 +16,25 @@
 * @param {ApiHelpers} params.helpers
 */
 function handler({api, event, helpers, imports}) {
- console.log(event.payload, event);
+    var open = api.state.listMenuHidden;
+
+    api.setState('listDisplayPanes', open ? 'both' : 'right');
+    
+
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-11-13 14:10:29</sys_created_on>
-        <sys_id>ea2cb16c472275501c89dffe046d430b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Debug script</sys_name>
+        <sys_created_on>2023-11-16 14:09:00</sys_created_on>
+        <sys_id>7e7321e147ee79501c89dffe046d4352</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>changeListDisplayPanes</sys_name>
         <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
-        <sys_update_name>sys_ux_client_script_ea2cb16c472275501c89dffe046d430b</sys_update_name>
+        <sys_update_name>sys_ux_client_script_7e7321e147ee79501c89dffe046d4352</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-13 14:10:29</sys_updated_on>
+        <sys_updated_on>2023-11-16 15:05:01</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>

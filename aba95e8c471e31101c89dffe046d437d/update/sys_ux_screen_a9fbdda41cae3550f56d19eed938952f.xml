@@ -55,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a9fbdda41cae3550f56d19eed938952f</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Record Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
@@ -63,7 +63,7 @@
         <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
         <sys_update_name>sys_ux_screen_a9fbdda41cae3550f56d19eed938952f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-15 10:36:03</sys_updated_on>
+        <sys_updated_on>2023-11-16 15:52:17</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=a9fbdda41cae3550f56d19eed938952f"/>
 </record_update>

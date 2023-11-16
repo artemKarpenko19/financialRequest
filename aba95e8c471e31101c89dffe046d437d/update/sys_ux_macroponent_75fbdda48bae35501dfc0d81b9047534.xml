@@ -1620,8 +1620,7 @@
                     "items": [
                         {
                             "conditional": {
-                                "type": "JSON_LITERAL",
-                                "value": null
+                                "type": "JSON_LITERAL"
                             },
                             "extensionPoint": null,
                             "icon": "paperclip-outline",
@@ -1639,8 +1638,7 @@
                         },
                         {
                             "conditional": {
-                                "type": "JSON_LITERAL",
-                                "value": null
+                                "type": "JSON_LITERAL"
                             },
                             "extensionPoint": null,
                             "icon": "document-outline",
@@ -2039,14 +2037,12 @@
                             "value": true
                         },
                         "initiallyCollapsed": {
-                            "script": {
-                                "apiVersion": "2.0.0",
-                                "controllerElementId": null,
-                                "inlineScript": null,
-                                "scriptSysId": "eb53011eb7d41110f7f62f19ce11a980",
-                                "target": null
+                            "binding": {
+                                "address": [
+                                    "collapsed"
+                                ]
                             },
-                            "type": "CLIENT_TRANSFORM_SCRIPT"
+                            "type": "EVENT_PAYLOAD_BINDING"
                         },
                         "items": {
                             "container": [
@@ -4592,20 +4588,29 @@
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_properties>[
-    
+    {
+        "fieldType": "boolean",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": true
+        },
+        "name": "sidebarTabsHidden",
+        "shape": "",
+        "valueType": "boolean"
+    }
 ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-13 10:52:17</sys_created_on>
         <sys_id>75fbdda48bae35501dfc0d81b9047534</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Record Default</sys_name>
         <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
         <sys_update_name>sys_ux_macroponent_75fbdda48bae35501dfc0d81b9047534</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-15 10:36:03</sys_updated_on>
+        <sys_updated_on>2023-11-16 15:52:18</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=75fbdda48bae35501dfc0d81b9047534"/>
 </record_update>

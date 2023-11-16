@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Home">f9fbdda435ae3550f4354eb8c33b0c34</macroponent>
+        <name>Debug Script</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+console.log(api);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-16 13:17:49</sys_created_on>
+        <sys_id>8279912947ae79501c89dffe046d43ac</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Debug Script</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_ux_client_script_8279912947ae79501c89dffe046d43ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-16 13:25:45</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</application>
+        <file_path/>
+        <instance_id>73a07ff9db2d3fc02f68c5970596196a</instance_id>
+        <instance_name>dev86177</instance_name>
+        <name>sys_ux_client_script_8279912947ae79501c89dffe046d43ac</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Home"&gt;f9fbdda435ae3550f4354eb8c33b0c34&lt;/macroponent&gt;&lt;name&gt;Debug Script&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+console.log(api);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-16 13:17:49&lt;/sys_created_on&gt;&lt;sys_id&gt;8279912947ae79501c89dffe046d43ac&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Debug Script&lt;/sys_name&gt;&lt;sys_package display_value="Finance Service Management" source="x_1106871_financ_0"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Finance Service Management"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_8279912947ae79501c89dffe046d43ac&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-16 13:25:45&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1321047455</payload_hash>
+        <record_name>Debug Script</record_name>
+        <reverted_from/>
+        <source>182a0a96479eb9101c89dffe046d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-16 13:25:45</sys_created_on>
+        <sys_id>dfdb51e947ae79501c89dffe046d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bd84f1d0f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-16 13:25:45</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>97db51e966ae795094416d27c0b02b6e</update_guid>
+        <update_guid_history>97db51e966ae795094416d27c0b02b6e:1321047455,4fab5da993ae7950a2447291abbc1b4b:2026811036,930add2924ae79508dda79c849552658:-2069647457</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-16 14:12:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0514813f6ecb4a8c80272285f0a13c44</sys_id>
+        <sys_metadata>8279912947ae79501c89dffe046d43ac</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Debug Script</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_scope_delete display_value="">5ec3e6f2d1604562a3d19c2d8639c069</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_8279912947ae79501c89dffe046d43ac</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_8279912947ae79501c89dffe046d43ac">dfdb51e947ae79501c89dffe046d436e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-16 14:12:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
