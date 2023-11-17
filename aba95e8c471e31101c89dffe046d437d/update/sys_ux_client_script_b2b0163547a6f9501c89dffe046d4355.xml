@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="New Finance Request">72b0163547a6f9501c89dffe046d4351</macroponent>
+        <name>viewport_gph/initiallyCollapsed</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return api.context.props.userPrefs['workspace.showAgentAssist'] != 'true';
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-17 11:55:13</sys_created_on>
+        <sys_id>b2b0163547a6f9501c89dffe046d4355</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>viewport_gph/initiallyCollapsed</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_ux_client_script_b2b0163547a6f9501c89dffe046d4355</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-17 11:55:13</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

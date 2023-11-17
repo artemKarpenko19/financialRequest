@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Financial Workspace App Config">39fbdda493ae3550a797658f0d597d43</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>New Finance Request</name>
+        <optional_parameters>query,extraParams,views,selectedTabIndex</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>new-finance-request</route_type>
+        <screen_type display_value="New Finance Request">36b016f147a6f9501c89dffe046d431b</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-17 11:55:12</sys_created_on>
+        <sys_id>3ab016f147a6f9501c89dffe046d431f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>New Finance Request</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_ux_app_route_3ab016f147a6f9501c89dffe046d431f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-17 12:13:36</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=3ab016f147a6f9501c89dffe046d431f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</application>
+        <file_path/>
+        <instance_id>73a07ff9db2d3fc02f68c5970596196a</instance_id>
+        <instance_name>dev86177</instance_name>
+        <name>sys_ux_app_route_3ab016f147a6f9501c89dffe046d431f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Financial Workspace App Config">39fbdda493ae3550a797658f0d597d43</app_config><description/><extension_point/><fields/><icon/><name>New Finance Request</name><optional_parameters>query,extraParams,views,selectedTabIndex</optional_parameters><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>new-finance-request</route_type><screen_type display_value="New Finance Request">36b016f147a6f9501c89dffe046d431b</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-17 11:55:12</sys_created_on><sys_id>3ab016f147a6f9501c89dffe046d431f</sys_id><sys_mod_count>2</sys_mod_count><sys_name>New Finance Request</sys_name><sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package><sys_policy/><sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope><sys_update_name>sys_ux_app_route_3ab016f147a6f9501c89dffe046d431f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-17 12:13:36</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=3ab016f147a6f9501c89dffe046d431f"/></record_update>]]></payload>
+        <payload_hash>918742128</payload_hash>
+        <record_name>New Finance Request</record_name>
+        <reverted_from/>
+        <source>182a0a96479eb9101c89dffe046d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-17 12:13:36</sys_created_on>
+        <sys_id>18f452f947a6f9501c89dffe046d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bdd336bac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-17 12:13:36</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>dcf452f9a7a6f9504b033f4ec317cec9</update_guid>
+        <update_guid_history>dcf452f9a7a6f9504b033f4ec317cec9:918742128,26e456353ba6f950542ddaf8102dbb20:380436841,36b0163513a6f950822951a6845eef4f:-1220124155</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-17 13:27:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>47dc123ad3c842669e73ebd32cc0f964</sys_id>
+        <sys_metadata>3ab016f147a6f9501c89dffe046d431f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Finance Request</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_scope_delete display_value="">5ec3e6f2d1604562a3d19c2d8639c069</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_3ab016f147a6f9501c89dffe046d431f</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_3ab016f147a6f9501c89dffe046d431f">18f452f947a6f9501c89dffe046d43ca</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-17 13:27:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
