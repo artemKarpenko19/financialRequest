@@ -5,8 +5,8 @@
         <cat_item display_value="Create Financial Request">d36f6dc9479275101c89dffe046d4311</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field/>
-        <choice_table/>
+        <choice_field>category</choice_field>
+        <choice_table>x_1106871_financ_0_finance_request</choice_table>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -29,12 +29,12 @@
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
-        <list_table/>
-        <lookup_label/>
+        <list_table>x_1106871_financ_0_finance_request</list_table>
+        <lookup_label>category</lookup_label>
         <lookup_price/>
-        <lookup_table/>
+        <lookup_table>x_1106871_financ_0_finance_request</lookup_table>
         <lookup_unique>false</lookup_unique>
-        <lookup_value/>
+        <lookup_value>category</lookup_value>
         <macro/>
         <macroponent/>
         <mandatory>true</mandatory>
@@ -53,9 +53,9 @@
         <rec_lookup_price/>
         <record/>
         <record_producer_table>x_1106871_financ_0_finance_request</record_producer_table>
-        <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <reference>x_1106871_financ_0_finance_request</reference>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -75,14 +75,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-02 16:05:08</sys_created_on>
         <sys_id>49c9758947d275101c89dffe046d43d0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Category</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
         <sys_update_name>item_option_new_49c9758947d275101c89dffe046d43d0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-02 16:09:03</sys_updated_on>
+        <sys_updated_on>2023-12-19 12:33:59</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>
