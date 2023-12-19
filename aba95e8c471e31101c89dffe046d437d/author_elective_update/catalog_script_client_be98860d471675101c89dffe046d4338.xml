@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Create Financial Request">d36f6dc9479275101c89dffe046d4311</cat_item>
+        <cat_variable>IO:49c9758947d275101c89dffe046d43d0</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>subcategory value onChange script</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    g_form.clearOptions('subcategory');
+
+    if (g_form.getValue('category') == 'bills') {
+        g_form.addOption('subcategory', 'creation', 'Creation');
+        g_form.addOption('subcategory', 'cancellation', 'Cancellation');
+        g_form.addOption('subcategory', 'payment', 'Payment');
+    } else {
+        g_form.addOption('subcategory', 'internal', 'Internal');
+        g_form.addOption('subcategory', 'external', 'External');
+
+    }
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 17:09:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>be98860d471675101c89dffe046d4338</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>subcategory value onChange script</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>catalog_script_client_be98860d471675101c89dffe046d4338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-03 09:53:55</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</application>
+        <file_path/>
+        <instance_id>73a07ff9db2d3fc02f68c5970596196a</instance_id>
+        <instance_name>dev86177</instance_name>
+        <name>catalog_script_client_be98860d471675101c89dffe046d4338</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Create Financial Request"&gt;d36f6dc9479275101c89dffe046d4311&lt;/cat_item&gt;&lt;cat_variable&gt;IO:49c9758947d275101c89dffe046d43d0&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;subcategory value onChange script&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    g_form.clearOptions('subcategory');
+
+    if (g_form.getValue('category') == 'bills') {
+        g_form.addOption('subcategory', 'creation', 'Creation');
+        g_form.addOption('subcategory', 'cancellation', 'Cancellation');
+        g_form.addOption('subcategory', 'payment', 'Payment');
+    } else {
+        g_form.addOption('subcategory', 'internal', 'Internal');
+        g_form.addOption('subcategory', 'external', 'External');
+
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-02 17:09:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;be98860d471675101c89dffe046d4338&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_name&gt;subcategory value onChange script&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Finance Service Management" source="x_1106871_financ_0"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Finance Service Management"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_be98860d471675101c89dffe046d4338&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-03 09:53:55&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-887377234</payload_hash>
+        <record_name>subcategory value onChange script</record_name>
+        <reverted_from/>
+        <source>9702d3d047d2b1101c89dffe046d431a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-03 09:53:56</sys_created_on>
+        <sys_id>39be25114756b5101c89dffe046d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b949a84130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-03 09:53:56</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>fdbe2511ed56b5106d61c9d8a6ac9ebb</update_guid>
+        <update_guid_history>fdbe2511ed56b5106d61c9d8a6ac9ebb:-887377234,a76eaddda416b51065adb6f90c18d271:250012116,7f5e6dddb316b510badc1caa0cefe9f4:59877163,fc1e2d9dde16b5107970c06cf59c4e6c:-2090959963,7e6de99d7116b510df11343a28ac02c8:-876608203,91d45ac9d8567510d11ae0baa1cc0c69:1724419746,0ea416c99c567510e7a13d6f5e0a5f10:-1558498407,e5b112096d5675103612fc2dd75eda05:1724419746,5dbfc645ed56751017aa1dee65c65900:-1835825637,89be0605a7567510194bcfd4929b2a75:-1852159540,a25e4ec167567510ae20e10e18dbbfad:-723303079,631e0ac111567510227577c966360b90:809842341,bccb8601815675101ed5d3ee45006a3b:1080450567,875b8ecdfc1675103095202c4da29e8a:1755693124,ffda06cdf616751055830aeb7adb2044:-238482212,ac990e4d4616751084327b08f4bc7b64:-275877091,1529824d2f1675107ade4853a7903abc:2060188100,3cc80a0d301675101976101554e5c5f8:1859618438</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="subcategory value onChange script">2ba74f0847df75101c89dffe046d436f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-19 12:13:00</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>0310ea80acd74cb4a3aa5f557a76ae89</sys_id>
+        <sys_metadata>be98860d471675101c89dffe046d4338</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>subcategory value onChange script</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_scope_delete display_value="">5ec3e6f2d1604562a3d19c2d8639c069</sys_scope_delete>
+        <sys_update_name>catalog_script_client_be98860d471675101c89dffe046d4338</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_be98860d471675101c89dffe046d4338">39be25114756b5101c89dffe046d43bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 12:13:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_choice_1</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 10:45:08</sys_created_on>
+        <sys_id>e1c030cd475e35101c89dffe046d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_choice_1</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e1c030cd475e35101c89dffe046d43d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 10:45:08</sys_updated_on>
+        <table>x_1106871_financ_0_finance_request</table>
+        <ui_policy display_value="On Hold Reason is visible when state is On Hold">c370f88d475e35101c89dffe046d43a6</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</application>
+        <file_path/>
+        <instance_id>73a07ff9db2d3fc02f68c5970596196a</instance_id>
+        <instance_name>dev86177</instance_name>
+        <name>sys_ui_policy_action_e1c030cd475e35101c89dffe046d43d4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_choice_1</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-02 10:45:08</sys_created_on><sys_id>e1c030cd475e35101c89dffe046d43d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_choice_1</sys_name><sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package><sys_policy/><sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope><sys_update_name>sys_ui_policy_action_e1c030cd475e35101c89dffe046d43d4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-02 10:45:08</sys_updated_on><table>x_1106871_financ_0_finance_request</table><ui_policy display_value="On Hold Reason is visible when state is On Hold">c370f88d475e35101c89dffe046d43a6</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>258313353</payload_hash>
+        <record_name>u_choice_1</record_name>
+        <reverted_from/>
+        <source>9702d3d047d2b1101c89dffe046d431a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 10:45:08</sys_created_on>
+        <sys_id>06d0f889475e35101c89dffe046d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b8fa308eb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 10:45:08</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>4ad0f8899c5e35103aa6b1d4024b3e6d</update_guid>
+        <update_guid_history>4ad0f8899c5e35103aa6b1d4024b3e6d:258313353</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 12:38:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>113cd42952844dd18163d1656626d869</sys_id>
+        <sys_metadata>e1c030cd475e35101c89dffe046d43d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_choice_1</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_parent display_value="On Hold Reason is visible when state is On Hold">c370f88d475e35101c89dffe046d43a6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_scope_delete display_value="">5ec3e6f2d1604562a3d19c2d8639c069</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_e1c030cd475e35101c89dffe046d43d4</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_e1c030cd475e35101c89dffe046d43d4">06d0f889475e35101c89dffe046d436e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-18 12:38:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

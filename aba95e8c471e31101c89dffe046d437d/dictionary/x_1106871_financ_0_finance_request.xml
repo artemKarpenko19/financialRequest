@@ -7,9 +7,7 @@
                 <element inactive_on_update="false" label="General requests" sequence="2" value="general_requests"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="email" type="string"/>
         <element label="Opened for" max_length="32" name="opened_for" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="15" name="phone" type="string"/>
         <element choice="3" dependent="category" dependent_on_field="category" label="Subcategory" max_length="40" name="subcategory" type="choice" use_dependent_field="true">
             <choice>
                 <element dependent_value="bills" inactive_on_update="false" label="Creation" sequence="0" value="creation"/>
@@ -21,12 +19,5 @@
                 <element dependent_value="general_requests" inactive_on_update="false" label="External" sequence="6" value="external"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="awaiting approving" label="On Hold Reason" mandatory="true" max_length="40" name="u_choice_1" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Awaiting approving" sequence="0" value="awaiting approving"/>
-                <element inactive_on_update="false" label="Awaiting  additional documents" sequence="1" value="awaiting  additional documents"/>
-            </choice>
-        </element>
-        <element label="New File Attachment" max_length="40" name="u_file_attachment_2" type="file_attachment"/>
     </element>
 </database>

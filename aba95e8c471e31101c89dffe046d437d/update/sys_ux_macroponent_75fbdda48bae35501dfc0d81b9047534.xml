@@ -3037,7 +3037,49 @@
                                 "elementId": "ui_action_bar",
                                 "elementLabel": "Action bar",
                                 "eventMappings": [
-                                    
+                                    {
+                                        "eventMappingId": "clkhhgggyhhaaaaaaaasffzbezddliiqaad",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_scrptng_ui_cmp.NOW_RECORD_UI_ACTION_BAR#REFRESH_REQUESTED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_scrptng_ui_cmp.NOW_RECORD_UI_ACTION_BAR#REFRESH_REQUESTED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "x_1106871_financ_0.NAV_ITEM_SELECTED_RELAY_75fbdda48bae35501dfc0d81b9047534",
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {
+                                                            "external": null,
+                                                            "fields": null,
+                                                            "multiInstField": null,
+                                                            "navigationOptions": null,
+                                                            "params": null,
+                                                            "passiveNavigation": null,
+                                                            "redirect": null,
+                                                            "route": "home",
+                                                            "targetRoute": null,
+                                                            "title": null
+                                                        }
+                                                    },
+                                                    "sysId": "f2e6e6f9472af9501c89dffe046d4361"
+                                                },
+                                                "operation": null,
+                                                "targetId": "clpccnwqnjaaficddbhhpvshhffeeccjjii",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
                                 ],
                                 "extensionPoints": [
                                     
@@ -4301,7 +4343,7 @@
     }
 ]</data>
         <description/>
-        <dispatched_events/>
+        <dispatched_events>f2e6e6f9472af9501c89dffe046d4361</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -4603,14 +4645,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-13 10:52:17</sys_created_on>
         <sys_id>75fbdda48bae35501dfc0d81b9047534</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Record Default</sys_name>
         <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
         <sys_update_name>sys_ux_macroponent_75fbdda48bae35501dfc0d81b9047534</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-16 15:52:18</sys_updated_on>
+        <sys_updated_on>2023-11-17 13:35:40</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=75fbdda48bae35501dfc0d81b9047534"/>
 </record_update>
