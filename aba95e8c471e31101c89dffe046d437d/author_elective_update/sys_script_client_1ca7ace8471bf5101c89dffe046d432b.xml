@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Limit assignment group choices to relevant</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>assignment group limitation</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.clearOptions('assignment_group');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 13:52:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ca7ace8471bf5101c89dffe046d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assignment group limitation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_script_client_1ca7ace8471bf5101c89dffe046d432b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 13:52:06</sys_updated_on>
+        <table>x_1106871_financ_0_finance_request</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</application>
+        <file_path/>
+        <instance_id>73a07ff9db2d3fc02f68c5970596196a</instance_id>
+        <instance_name>dev86177</instance_name>
+        <name>sys_script_client_1ca7ace8471bf5101c89dffe046d432b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Limit assignment group choices to relevant&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;assignment group limitation&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   g_form.clearOptions('assignment_group');
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-20 13:52:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1ca7ace8471bf5101c89dffe046d432b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;assignment group limitation&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Finance Service Management" source="x_1106871_financ_0"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Finance Service Management"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_1ca7ace8471bf5101c89dffe046d432b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-20 13:52:06&lt;/sys_updated_on&gt;&lt;table&gt;x_1106871_financ_0_finance_request&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2135694126</payload_hash>
+        <record_name>assignment group limitation</record_name>
+        <reverted_from/>
+        <source>182a0a96479eb9101c89dffe046d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 13:52:06</sys_created_on>
+        <sys_id>81f7242c471bf5101c89dffe046d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c877f76560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 13:52:06</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>85f7242c831bf5106251c0af6523006c</update_guid>
+        <update_guid_history>85f7242c831bf5106251c0af6523006c:2135694126</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 13:52:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0a2ddd9bd8394957918b5cf0d8e55a99</sys_id>
+        <sys_metadata>1ca7ace8471bf5101c89dffe046d432b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assignment group limitation</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_parent display_value="Finance Request">95aa1200475e31101c89dffe046d434c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_scope_delete display_value="">5ec3e6f2d1604562a3d19c2d8639c069</sys_scope_delete>
+        <sys_update_name>sys_script_client_1ca7ace8471bf5101c89dffe046d432b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_1ca7ace8471bf5101c89dffe046d432b">81f7242c471bf5101c89dffe046d436d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 13:52:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
