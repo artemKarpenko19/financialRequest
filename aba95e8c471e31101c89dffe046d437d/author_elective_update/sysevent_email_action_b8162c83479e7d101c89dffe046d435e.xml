@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1106871_financ_0_finance_request</collection>
+        <condition table="x_1106871_financ_0_finance_request">stateCHANGESFROM0^EQ<item display_value="New" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="0"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><span style="font-size: 18pt;">Request Status and State Changed</span></p>
+<hr />
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;"><span style="font-size: 12pt;">Hi ${watch_list},<br /><br /></span></p>
+<p style="text-align: left;"><span style="font-size: 12pt;">Request state was changed to ${state}<br /></span></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><span style="font-size: 12pt;">Comments: </span></p>
+<hr />
+<p style="text-align: left;"><span style="font-size: 12pt;">${comments_and_work_notes}<br /></span></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="padding: 0.5rem; background-color: #5052bd; border-radius: 0.3rem; text-align: center; width: 20%;"><span style="font-size: 12pt;"><a style="color: #ffffff; text-decoration: none;" href="/x_1106871_financ_0_finance_request.do?sys_id=${sys_id}">View request</a></span></p>
+<p>&nbsp;</p>
+<p style="text-align: left;"><span style="font-size: 18pt;"><strong>About this request</strong></span></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><span style="font-size: 12pt;">Number: <strong>${number}<br /></strong></span></p>
+<p style="text-align: left;"><span style="font-size: 12pt;">Priority: <strong>${priority}<br /></strong></span></p>
+<p style="text-align: left;"><span style="font-size: 12pt;">Short description:<strong> ${short_description}<br /></strong></span></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><span style="font-size: 12pt;">Thank you</span></p>
+<p style="text-align: left;"><span style="font-size: 12pt;">Finance Team</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Request Status and State Changed (WL)</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>watch_list</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Finance Request ${number} state changed</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-08 15:09:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b8162c83479e7d101c89dffe046d435e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Request Status and State Changed (WL)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sysevent_email_action_b8162c83479e7d101c89dffe046d435e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 19:54:35</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Employee notification Procise">7259b128479ff5101c89dffe046d43d2</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</application>
+        <file_path/>
+        <instance_id>73a07ff9db2d3fc02f68c5970596196a</instance_id>
+        <instance_name>dev86177</instance_name>
+        <name>sysevent_email_action_b8162c83479e7d101c89dffe046d435e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_1106871_financ_0_finance_request&lt;/collection&gt;&lt;condition table="x_1106871_financ_0_finance_request"&gt;stateCHANGESFROM0^EQ&lt;item display_value="New" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="0"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;span style="font-size: 18pt;"&gt;Request Status and State Changed&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style="text-align: center;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 12pt;"&gt;Hi ${watch_list},&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 12pt;"&gt;Request state was changed to ${state}&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 12pt;"&gt;Comments: &lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 12pt;"&gt;${comments_and_work_notes}&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="padding: 0.5rem; background-color: #5052bd; border-radius: 0.3rem; text-align: center; width: 20%;"&gt;&lt;span style="font-size: 12pt;"&gt;&lt;a style="color: #ffffff; text-decoration: none;" href="/x_1106871_financ_0_finance_request.do?sys_id=${sys_id}"&gt;View request&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 18pt;"&gt;&lt;strong&gt;About this request&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 12pt;"&gt;Number: &lt;strong&gt;${number}&lt;br /&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 12pt;"&gt;Priority: &lt;strong&gt;${priority}&lt;br /&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 12pt;"&gt;Short description:&lt;strong&gt; ${short_description}&lt;br /&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 12pt;"&gt;Thank you&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: left;"&gt;&lt;span style="font-size: 12pt;"&gt;Finance Team&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Request Status and State Changed (WL)&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;watch_list&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Finance Request ${number} state changed&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-08 15:09:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b8162c83479e7d101c89dffe046d435e&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Request Status and State Changed (WL)&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Finance Service Management" source="x_1106871_financ_0"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Finance Service Management"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_b8162c83479e7d101c89dffe046d435e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-20 19:54:35&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Employee notification Procise"&gt;7259b128479ff5101c89dffe046d43d2&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-702363469</payload_hash>
+        <record_name>Request Status and State Changed (WL)</record_name>
+        <reverted_from/>
+        <source>182a0a96479eb9101c89dffe046d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 19:54:35</sys_created_on>
+        <sys_id>3aea35e8479ff5101c89dffe046d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c88cb50f60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 19:54:35</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>feea35e8c79ff510a84f3fcb416dae31</update_guid>
+        <update_guid_history>feea35e8c79ff510a84f3fcb416dae31:-702363469,d3f6a807139e7d10ace02f3cb8f42160:154692407,04e62807539e7d1096bd3decff016a0c:-781823284,30d668c3e49e7d1086e980812b627a3e:1462157417</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 15:14:03</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>459e04678b9b4788b19437c6524ab040</sys_id>
+        <sys_metadata>b8162c83479e7d101c89dffe046d435e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Status and State Changed (WL)</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_parent display_value="Finance Request">95aa1200475e31101c89dffe046d434c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_scope_delete display_value="">5ec3e6f2d1604562a3d19c2d8639c069</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_b8162c83479e7d101c89dffe046d435e</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_b8162c83479e7d101c89dffe046d435e">3aea35e8479ff5101c89dffe046d4332</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 15:14:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

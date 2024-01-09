@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>add WL email to CC</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          
+	// Add your code here
+	var watcherIds =   current.watch_list.split(',');
+
+
+for (var i=0;i<watcherIds.length;i++) {
+
+
+if (watcherIds[i].indexOf('@') > -1) {
+
+
+email.addAddress("cc", watcherIds[i], watcherIds[i]);
+
+
+} else {
+
+
+var userVals = getUserEmail(watcherIds[i]);
+
+
+if (userVals.length > -1) {
+
+
+email.addAddress("cc",userVals[0],userVals[1]);
+
+
+}
+
+
+}
+
+
+}
+
+
+
+function getUserEmail(inId) {
+
+
+var vals = [];
+
+
+var user = new GlideRecord("sys_user");
+
+
+user.addQuery("sys_id",inId);
+
+
+user.addQuery("notification", '2'); //notifications enabled
+
+
+user.addQuery("email", "!=", "");
+
+
+user.query();
+
+
+if (user.next()) {
+
+
+vals.push(user.getValue('email'));
+
+
+vals.push(user.getValue('user_name'));
+
+
+}
+
+
+return vals;
+
+
+}
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 15:12:11</sys_created_on>
+        <sys_id>f373ce74475379101c89dffe046d4342</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>add WL email to CC</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_script_email_f373ce74475379101c89dffe046d4342</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 15:33:45</sys_updated_on>
+    </sys_script_email>
+</record_update>

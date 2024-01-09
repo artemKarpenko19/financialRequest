@@ -2,64 +2,58 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_1106871_financ_0.Assigned To field value</api_name>
+        <api_name>x_1106871_financ_0.AssignedToFieldValue</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
-        <name>Assigned To field value</name>
-        <script><![CDATA[var assignedToList = Class.create();
+        <name>AssignedToFieldValue</name>
+        <script><![CDATA[var AssignedToFieldValue = Class.create();
+
+AssignedToFieldValue.prototype = {
+
+    initialize: function() { },
+
+    assignTo: function(a) {
+
+        var user = [];
+
+        var grp = new GlideRecord('sys_user_grmember');
+
+        if (!a) {
+            grp.addEncodedQuery('groupLIKEfinance');
+            grp.query();
+
+            while (grp.next())
+
+                user.push(grp.user.toString());
+
+        } else {
+            grp.addQuery('group', a);
+            grp.query();
+
+            while (grp.next())
+
+                user.push(grp.user.toString());
+        }
+		
+        return 'sys_idIN' + user.join(',');
 
 
-assignedToList.prototype = {
+    },
 
-
-initialize: function() {
-
-
-},
-
-
-AssignTo:function() {
-
-
-var user = [];
-
-
-var grp = new GlideRecord('sys_user_grmember');
-
-
-grp.addQuery('group', current.assignment_group);
-
-
-grp.query();
-
-
-while(grp.next())
-
-
-user.push(grp.user.toString());
-
-
-return 'sys_idIN' + user;
-
-
-},
-
-type: 'assignedToList'
-};
-
-]]></script>
+    type: 'AssignedToFieldValue'
+};]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-18 20:25:00</sys_created_on>
         <sys_id>2d6e63ff47cf35101c89dffe046d432e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Assigned To field value</sys_name>
+        <sys_mod_count>72</sys_mod_count>
+        <sys_name>AssignedToFieldValue</sys_name>
         <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
         <sys_update_name>sys_script_include_2d6e63ff47cf35101c89dffe046d432e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-18 20:30:37</sys_updated_on>
+        <sys_updated_on>2024-01-09 08:56:26</sys_updated_on>
     </sys_script_include>
 </record_update>

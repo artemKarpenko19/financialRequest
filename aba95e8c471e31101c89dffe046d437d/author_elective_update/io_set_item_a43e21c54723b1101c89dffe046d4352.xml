@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>200</order>
+        <sc_cat_item display_value="Create Financial Request">d36f6dc9479275101c89dffe046d4311</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 18:31:39</sys_created_on>
+        <sys_id>a43e21c54723b1101c89dffe046d4352</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Requestor Info.Create Financial Request</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>io_set_item_a43e21c54723b1101c89dffe046d4352</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 18:45:52</sys_updated_on>
+        <variable_set display_value="Requester Info">d21e6d454723b1101c89dffe046d4381</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</application>
+        <file_path/>
+        <instance_id>73a07ff9db2d3fc02f68c5970596196a</instance_id>
+        <instance_name>dev86177</instance_name>
+        <name>io_set_item_a43e21c54723b1101c89dffe046d4352</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>200</order><sc_cat_item display_value="Create Financial Request">d36f6dc9479275101c89dffe046d4311</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-03 18:31:39</sys_created_on><sys_id>a43e21c54723b1101c89dffe046d4352</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Requestor Info.Create Financial Request</sys_name><sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package><sys_policy/><sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope><sys_update_name>io_set_item_a43e21c54723b1101c89dffe046d4352</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-03 18:45:52</sys_updated_on><variable_set display_value="Requester Info">d21e6d454723b1101c89dffe046d4381</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1009404712</payload_hash>
+        <record_name>Requestor Info.Create Financial Request</record_name>
+        <reverted_from/>
+        <source>4d5879054763b1101c89dffe046d43eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 19:15:56</sys_created_on>
+        <sys_id>4d58b9054763b1101c89dffe046d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cd0c0f81e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 19:15:56</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>4158b9059463b1108266ebb241287a13</update_guid>
+        <update_guid_history>4158b9059463b1108266ebb241287a13:1009404712,3c7179c90c23b110f76eebe95eeea477:-193534626,203e21c5d423b1104df701976750b56d:-2001948289</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Requestor Info.Create Financial Request">4aadb5c94763b1101c89dffe046d4347</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 19:39:13</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>15cbb209d0314b41898c80fef07dc621</sys_id>
+        <sys_metadata>a43e21c54723b1101c89dffe046d4352</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requestor Info.Create Financial Request</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_scope_delete display_value="">5ec3e6f2d1604562a3d19c2d8639c069</sys_scope_delete>
+        <sys_update_name>io_set_item_a43e21c54723b1101c89dffe046d4352</sys_update_name>
+        <sys_update_version display_value="io_set_item_a43e21c54723b1101c89dffe046d4352">4d58b9054763b1101c89dffe046d4313</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 19:39:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

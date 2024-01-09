@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Create Financial Request">d36f6dc9479275101c89dffe046d4311</cat_item>
+        <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -42,7 +42,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>description</name>
-        <order>1100</order>
+        <order>1000</order>
         <post_insert_script/>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
@@ -52,10 +52,10 @@
         <read_script/>
         <rec_lookup_price/>
         <record/>
-        <record_producer_table>x_1106871_financ_0_finance_request</record_producer_table>
+        <record_producer_table/>
         <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -75,14 +75,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-02 16:06:55</sys_created_on>
         <sys_id>d87af1c947d275101c89dffe046d437d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Description</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
         <sys_update_name>item_option_new_d87af1c947d275101c89dffe046d437d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-02 16:09:03</sys_updated_on>
+        <sys_updated_on>2024-01-04 10:36:54</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>
@@ -92,7 +92,7 @@
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
-        <variable_set/>
+        <variable_set display_value="Finance Request Details">7c9ac9554723f1101c89dffe046d43bb</variable_set>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>

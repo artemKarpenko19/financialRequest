@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>assignment_group</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>show AG on change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   g_form.addInfoMessage('AG is ' + g_form.getValue('assignment_group')); 	
+   g_form.addInfoMessage(!!g_form.getValue('assignment_group'));
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 14:45:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fb4aa2e647e331101c89dffe046d436d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>show AG on change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_script_client_fb4aa2e647e331101c89dffe046d436d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 14:51:40</sys_updated_on>
+        <table>x_1106871_financ_0_finance_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</application>
+        <file_path/>
+        <instance_id>73a07ff9db2d3fc02f68c5970596196a</instance_id>
+        <instance_name>dev86177</instance_name>
+        <name>sys_script_client_fb4aa2e647e331101c89dffe046d436d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;assignment_group&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;show AG on change&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   g_form.addInfoMessage('AG is ' + g_form.getValue('assignment_group')); 	
+   g_form.addInfoMessage(!!g_form.getValue('assignment_group'));
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-08 14:45:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fb4aa2e647e331101c89dffe046d436d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;show AG on change&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Finance Service Management" source="x_1106871_financ_0"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Finance Service Management"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_fb4aa2e647e331101c89dffe046d436d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-08 14:51:40&lt;/sys_updated_on&gt;&lt;table&gt;x_1106871_financ_0_finance_request&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1139319461</payload_hash>
+        <record_name>show AG on change</record_name>
+        <reverted_from/>
+        <source>182a0a96479eb9101c89dffe046d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 14:51:40</sys_created_on>
+        <sys_id>3ecb2eea47e331101c89dffe046d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ce98ed39e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 14:51:40</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>f2cb2eea15e33110c0e8bd2bf7b54f6e</update_guid>
+        <update_guid_history>f2cb2eea15e33110c0e8bd2bf7b54f6e:-1139319461,756aaee6a7e33110db4329f8614fd02a:1924266742,fb4aae6ae1e331108354c149cdb7341d:1152087492</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 15:54:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>14d77c9579fc45a08e57442f1a1fc900</sys_id>
+        <sys_metadata>fb4aa2e647e331101c89dffe046d436d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>show AG on change</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_parent display_value="Finance Request">95aa1200475e31101c89dffe046d434c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_scope_delete display_value="">5ec3e6f2d1604562a3d19c2d8639c069</sys_scope_delete>
+        <sys_update_name>sys_script_client_fb4aa2e647e331101c89dffe046d436d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_fb4aa2e647e331101c89dffe046d436d">3ecb2eea47e331101c89dffe046d436e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 15:54:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

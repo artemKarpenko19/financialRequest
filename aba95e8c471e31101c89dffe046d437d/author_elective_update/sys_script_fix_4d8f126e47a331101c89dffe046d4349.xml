@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <before>false</before>
+        <description/>
+        <name>assignedToScript</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[var assTo = new x_1106871_financ_0.AssignedToFieldValue;
+assTo.AssignTo();
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 13:59:58</sys_created_on>
+        <sys_id>4d8f126e47a331101c89dffe046d4349</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>assignedToScript</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_script_fix_4d8f126e47a331101c89dffe046d4349</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 14:38:47</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</application>
+        <file_path/>
+        <instance_id>73a07ff9db2d3fc02f68c5970596196a</instance_id>
+        <instance_name>dev86177</instance_name>
+        <name>sys_script_fix_4d8f126e47a331101c89dffe046d4349</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;&lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;&lt;before&gt;false&lt;/before&gt;&lt;description/&gt;&lt;name&gt;assignedToScript&lt;/name&gt;&lt;record_for_rollback&gt;true&lt;/record_for_rollback&gt;&lt;script&gt;&lt;![CDATA[var assTo = new x_1106871_financ_0.AssignedToFieldValue;
+assTo.AssignTo();
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-08 13:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;4d8f126e47a331101c89dffe046d4349&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;assignedToScript&lt;/sys_name&gt;&lt;sys_package display_value="Finance Service Management" source="x_1106871_financ_0"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Finance Service Management"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fix_4d8f126e47a331101c89dffe046d4349&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-08 14:38:47&lt;/sys_updated_on&gt;&lt;unloadable&gt;false&lt;/unloadable&gt;&lt;/sys_script_fix&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1751451971</payload_hash>
+        <record_name>assignedToScript</record_name>
+        <reverted_from/>
+        <source>182a0a96479eb9101c89dffe046d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 14:38:47</sys_created_on>
+        <sys_id>0ed822e647e331101c89dffe046d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ce98307a60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 14:38:47</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>c2d822e62ae33110f6f4682d08a3c920</update_guid>
+        <update_guid_history>c2d822e62ae33110f6f4682d08a3c920:-1751451971,0cb8e2e61ee331103f1739ed50503e38:1199507390,4468e2e6cfe33110b04bd010627307c2:-2082190880,6e28eaa23ae331106f92ee5f3aa32de2:-751677239,98e72ea6b1e331101ac0db55ae2d6e82:-204209541,9564ea228de33110d72dedb3f411586c:634395673,f324e62234e3311044ff3ee7607b5b6e:-893504715,89e166ee1ba331108669fd4c75eb2301:634395673,1211a22ea9a33110b2ed95b92a89ece5:1877052751,19ff922eb0a3311003764548ec5865a1:150441453</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 14:39:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>0a221021d597474083e114de5a75e761</sys_id>
+        <sys_metadata>4d8f126e47a331101c89dffe046d4349</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assignedToScript</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_scope_delete display_value="">5ec3e6f2d1604562a3d19c2d8639c069</sys_scope_delete>
+        <sys_update_name>sys_script_fix_4d8f126e47a331101c89dffe046d4349</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_4d8f126e47a331101c89dffe046d4349">0ed822e647e331101c89dffe046d4320</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 14:39:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

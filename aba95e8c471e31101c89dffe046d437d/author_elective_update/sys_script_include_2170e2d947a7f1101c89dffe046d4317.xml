@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1106871_financ_0.Assigned To field value</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Assigned To field value</name>
+        <script><![CDATA[var assignedToList = Class.create();
+
+
+assignedToList.prototype = {
+
+
+initialize: function() {
+
+
+},
+
+
+AssignTo:function() {
+
+
+var user = [];
+
+
+var grp = new GlideRecord('sys_user_grmember');
+
+
+grp.addQuery('group', current.assignment_group);
+
+
+grp.query();
+
+
+while(grp.next())
+
+
+user.push(grp.user.toString());
+
+
+return 'sys_idIN' + user;
+
+
+},
+
+type: 'assignedToList'
+};
+
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 16:49:45</sys_created_on>
+        <sys_id>2170e2d947a7f1101c89dffe046d4317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assigned To field value</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_script_include_2170e2d947a7f1101c89dffe046d4317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 16:49:45</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</application>
+        <file_path/>
+        <instance_id>73a07ff9db2d3fc02f68c5970596196a</instance_id>
+        <instance_name>dev86177</instance_name>
+        <name>sys_script_include_2170e2d947a7f1101c89dffe046d4317</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1106871_financ_0.Assigned To field value&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;Assigned To field value&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var assignedToList = Class.create();
+
+
+assignedToList.prototype = {
+
+
+initialize: function() {
+
+
+},
+
+
+AssignTo:function() {
+
+
+var user = [];
+
+
+var grp = new GlideRecord('sys_user_grmember');
+
+
+grp.addQuery('group', current.assignment_group);
+
+
+grp.query();
+
+
+while(grp.next())
+
+
+user.push(grp.user.toString());
+
+
+return 'sys_idIN' + user;
+
+
+},
+
+type: 'assignedToList'
+};
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-04 16:49:45&lt;/sys_created_on&gt;&lt;sys_id&gt;2170e2d947a7f1101c89dffe046d4317&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Assigned To field value&lt;/sys_name&gt;&lt;sys_package display_value="Finance Service Management" source="x_1106871_financ_0"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Finance Service Management"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_2170e2d947a7f1101c89dffe046d4317&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-04 16:49:45&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1885620295</payload_hash>
+        <record_name>Assigned To field value</record_name>
+        <reverted_from/>
+        <source>182a0a96479eb9101c89dffe046d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 16:49:46</sys_created_on>
+        <sys_id>f970e2d947a7f1101c89dffe046d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cd561811e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 16:49:46</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>3170e2d9dea7f110ce335bd9ddc6ff19</update_guid>
+        <update_guid_history>3170e2d9dea7f110ce335bd9ddc6ff19:1885620295</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-04 16:56:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>07547502e75d43148136a3096370f201</sys_id>
+        <sys_metadata>2170e2d947a7f1101c89dffe046d4317</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assigned To field value</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_scope_delete display_value="">5ec3e6f2d1604562a3d19c2d8639c069</sys_scope_delete>
+        <sys_update_name>sys_script_include_2170e2d947a7f1101c89dffe046d4317</sys_update_name>
+        <sys_update_version display_value="sys_script_include_2170e2d947a7f1101c89dffe046d4317">f970e2d947a7f1101c89dffe046d4319</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-04 16:56:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

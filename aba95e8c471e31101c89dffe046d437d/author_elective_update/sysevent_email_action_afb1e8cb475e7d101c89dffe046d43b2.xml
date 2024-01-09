@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1106871_financ_0_finance_request</collection>
+        <condition table="x_1106871_financ_0_finance_request">state=0^EQ<item display_value="New" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="0"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<p>${mail_script:Add Caller email to CC}</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><span style="font-size: 18pt;">We received you request</span></p>
+<hr />
+<p><span style="font-size: 12pt;">Hi ${opened_by.first_name},<br /><br /></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 12pt;">We created<strong>&nbsp;${number}</strong> to handle your request.</span></p>
+<p><span style="font-size: 12pt;">You can view your request to track updates and make changes.&nbsp;</span></p>
+<p>&nbsp;</p>
+<p style="padding: 0.5rem; background-color: #5052bd; border-radius: 0.3rem; text-align: center; width: 20%;"><a style="color: #ffffff; text-decoration: none;" href="/x_1106871_financ_0_finance_request.do?sys_id=${sys_id}">View request</a></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-size: 18pt;">About this request</span></strong></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 18pt;"><span style="font-size: 12pt;">Short description:</span></span><strong><span style="font-size: 18pt;"><span style="font-size: 12pt;"> ${short_description}</span><br /></span></strong></p>
+<p><span style="font-size: 18pt;"><span style="font-size: 12pt;">Requested for:</span></span><strong><span style="font-size: 18pt;"><span style="font-size: 12pt;"> ${opened_for}<br /></span></span></strong></p>
+<p><span style="font-size: 18pt;"><span style="font-size: 12pt;">Opened by: </span></span><strong><span style="font-size: 18pt;"><span style="font-size: 12pt;">${opened_by}<br /></span></span></strong></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 18pt;"><span style="font-size: 12pt;">Thank you, </span></span></p>
+<p><span style="font-size: 18pt;"><span style="font-size: 12pt;">Finance Team</span></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>New Request Created (Caller)</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>opened_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Finance Request ${number} was created</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-08 14:49:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>afb1e8cb475e7d101c89dffe046d43b2</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>New Request Created (Caller)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sysevent_email_action_afb1e8cb475e7d101c89dffe046d43b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 14:37:47</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Employee notification Procise">7259b128479ff5101c89dffe046d43d2</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</application>
+        <file_path/>
+        <instance_id>73a07ff9db2d3fc02f68c5970596196a</instance_id>
+        <instance_name>dev86177</instance_name>
+        <name>sysevent_email_action_afb1e8cb475e7d101c89dffe046d43b2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_1106871_financ_0_finance_request&lt;/collection&gt;&lt;condition table="x_1106871_financ_0_finance_request"&gt;state=0^EQ&lt;item display_value="New" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="0"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;${mail_script:Add Caller email to CC}&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;span style="font-size: 18pt;"&gt;We received you request&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;Hi ${opened_by.first_name},&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;We created&lt;strong&gt;&amp;nbsp;${number}&lt;/strong&gt; to handle your request.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;You can view your request to track updates and make changes.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="padding: 0.5rem; background-color: #5052bd; border-radius: 0.3rem; text-align: center; width: 20%;"&gt;&lt;a style="color: #ffffff; text-decoration: none;" href="/x_1106871_financ_0_finance_request.do?sys_id=${sys_id}"&gt;View request&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;About this request&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 18pt;"&gt;&lt;span style="font-size: 12pt;"&gt;Short description:&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;&lt;span style="font-size: 12pt;"&gt; ${short_description}&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 18pt;"&gt;&lt;span style="font-size: 12pt;"&gt;Requested for:&lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;&lt;span style="font-size: 12pt;"&gt; ${opened_for}&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 18pt;"&gt;&lt;span style="font-size: 12pt;"&gt;Opened by: &lt;/span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;&lt;span style="font-size: 12pt;"&gt;${opened_by}&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 18pt;"&gt;&lt;span style="font-size: 12pt;"&gt;Thank you, &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 18pt;"&gt;&lt;span style="font-size: 12pt;"&gt;Finance Team&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;New Request Created (Caller)&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;opened_by&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Finance Request ${number} was created&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-08 14:49:35&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;afb1e8cb475e7d101c89dffe046d43b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;New Request Created (Caller)&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Finance Service Management" source="x_1106871_financ_0"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Finance Service Management"&gt;aba95e8c471e31101c89dffe046d437d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_afb1e8cb475e7d101c89dffe046d43b2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-21 14:37:47&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Employee notification Procise"&gt;7259b128479ff5101c89dffe046d43d2&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-267990592</payload_hash>
+        <record_name>New Request Created (Caller)</record_name>
+        <reverted_from/>
+        <source>182a0a96479eb9101c89dffe046d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 14:37:47</sys_created_on>
+        <sys_id>480c7d7c471379101c89dffe046d4366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c8ccfa5220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 14:37:47</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>cc0c7d7c4f137910c196e497894eb765</update_guid>
+        <update_guid_history>cc0c7d7c4f137910c196e497894eb765:-267990592,fb8a7da8ff9ff510a1425cf10f3b9ce4:1475172950,a3f2bdec585ff51012d297363ee38af4:112265626,cca2f560189ff51072304e9badcdf942:-613247053,1b72b16c165ff5100eddb16f8f13fead:931572654,ecd1b028915bf510d7e986011b8658e6:1797000532,9b88e487719e7d1091aa812f016cacab:205149234,6152ec0b6f5e7d10c834b0f7fc0be813:-1366318244</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 14:38:06</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>38a3ac6d8f44488c9b9ca814cfccc4c4</sys_id>
+        <sys_metadata>afb1e8cb475e7d101c89dffe046d43b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Request Created (Caller)</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_parent display_value="Finance Request">95aa1200475e31101c89dffe046d434c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_scope_delete display_value="">5ec3e6f2d1604562a3d19c2d8639c069</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_afb1e8cb475e7d101c89dffe046d43b2</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_afb1e8cb475e7d101c89dffe046d43b2">480c7d7c471379101c89dffe046d4366</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 14:38:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

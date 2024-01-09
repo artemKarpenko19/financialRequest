@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c62551914763f1101c89dffe046d43bc" sys_domain="global" table="x_1106871_financ_0_finance_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-04 11:20:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c62551914763f1101c89dffe046d43bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1106871_financ_0_finance_request" name="x_1106871_financ_0_finance_request" sys_domain="global" view="84b3559d4723f1101c89dffe046d43f0">c62551914763f1101c89dffe046d43bc</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1106871_financ_0_finance_request" sys_domain="global" view="84b3559d4723f1101c89dffe046d43f0">80b351514763f1101c89dffe046d438a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-04 11:20:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-04 11:27:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0b6d9154763f1101c89dffe046d4334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1106871_financ_0_finance_request" name="x_1106871_financ_0_finance_request" sys_domain="global" view="84b3559d4723f1101c89dffe046d43f0">c62551914763f1101c89dffe046d43bc</sys_ui_form>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1106871_financ_0_finance_request" sys_domain="global" view="84b3559d4723f1101c89dffe046d43f0">38b699154763f1101c89dffe046d43ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-04 11:27:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-04 11:34:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c538d5954763f1101c89dffe046d4342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1106871_financ_0_finance_request" name="x_1106871_financ_0_finance_request" sys_domain="global" view="84b3559d4723f1101c89dffe046d43f0">c62551914763f1101c89dffe046d43bc</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1106871_financ_0_finance_request" sys_domain="global" view="84b3559d4723f1101c89dffe046d43f0">0538d5954763f1101c89dffe046d433f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-04 11:34:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-04 11:34:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0938d5954763f1101c89dffe046d4346</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1106871_financ_0_finance_request" name="x_1106871_financ_0_finance_request" sys_domain="global" view="84b3559d4723f1101c89dffe046d43f0">c62551914763f1101c89dffe046d43bc</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1106871_financ_0_finance_request" sys_domain="global" view="84b3559d4723f1101c89dffe046d43f0">cd38d5954763f1101c89dffe046d433f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-04 11:34:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1106871_financ_0_finance_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-04 11:20:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c62551914763f1101c89dffe046d43bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1106871_financ_0_finance_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c62551914763f1101c89dffe046d43bc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-04 11:20:45</sys_updated_on>
+            <sys_user/>
+            <view display_value="Finance request view" name="finance_request_view">84b3559d4723f1101c89dffe046d43f0</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
