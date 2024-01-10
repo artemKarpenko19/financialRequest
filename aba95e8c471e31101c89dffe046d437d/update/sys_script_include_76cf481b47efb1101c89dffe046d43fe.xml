@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1106871_financ_0.userDetails</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>userDetails</name>
+        <script><![CDATA[var userDetails = Class.create();
+userDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    requestor_info: function() {
+
+        var obj = {};
+
+        var details = this.getParameter('sysparm_user_name');
+        var user = new GlideRecord('sys_user');
+        user.addQuery('sys_id', details);
+        user.query();
+        while (user.next()) {
+            obj.phone = user.phone.getDisplayValue();
+            obj.location = user.location.getDisplayValue();
+            obj.email = user.email.getDisplayValue();
+
+        }
+
+        
+        return JSON.stringify(obj);
+
+    },
+    type: 'userdetails'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 11:32:03</sys_created_on>
+        <sys_id>76cf481b47efb1101c89dffe046d43fe</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>userDetails</sys_name>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_script_include_76cf481b47efb1101c89dffe046d43fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 12:22:51</sys_updated_on>
+    </sys_script_include>
+</record_update>
