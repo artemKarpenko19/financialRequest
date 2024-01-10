@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
-        <active>true</active>
+        <active>false</active>
         <api_name>x_1106871_financ_0.AssignmentGroupFieldValue</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
@@ -15,22 +15,22 @@ AssignmentGroupFieldValue.prototype = {
         var arryVal = [];
         var gr = new GlideRecord('sys_user_grmember');
 
-        if (!a) {
+      //  if (!a) {
             gr.addEncodedQuery('groupLIKEfinance');
             gr.query();
 
             while (gr.next()) {
                 arryVal.push(gr.group.toString());
             }
-        } else {
-            gr.addQuery('user', a);
-            gr.addEncodedQuery('groupLIKEfinance');
-            gr.query();
+     //   } else {
+     //       gr.addQuery('user', a);
+     //       gr.addEncodedQuery('groupLIKEfinance');
+     //       gr.query();
 
-            while (gr.next()) {
-                arryVal.push(gr.group.toString());
-            }
-        }
+     //       while (gr.next()) {
+     //           arryVal.push(gr.group.toString());
+     //       }
+    //  }
         return 'sys_idIN' + arryVal.join(',');
 
     },
@@ -40,13 +40,13 @@ AssignmentGroupFieldValue.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-04 17:19:29</sys_created_on>
         <sys_id>8427e6d147e7f1101c89dffe046d4387</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>AssignmentGroupFieldValue</sys_name>
         <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
         <sys_update_name>sys_script_include_8427e6d147e7f1101c89dffe046d4387</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-09 08:55:55</sys_updated_on>
+        <sys_updated_on>2024-01-09 14:43:23</sys_updated_on>
     </sys_script_include>
 </record_update>

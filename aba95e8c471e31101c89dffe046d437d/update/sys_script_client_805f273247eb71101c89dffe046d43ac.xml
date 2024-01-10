@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Clear AssignedTo when AG changes</description>
+        <field>assignment_group</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Clear AssignedTo when AG changes</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading)
+        return;
+
+    // Need to get the form value, in case it changes but then changes back to value in database (oldValue is always DB value)
+
+    if (oldValue != newValue)
+        g_scratchpad.formValue = newValue;
+
+    if (newValue === '' || newValue == null || oldValue != newValue || newValue != g_scratchpad.formValue) {
+
+        if (newValue && g_form.getValue("assigned_to")) {
+           
+            var ga = new GlideAjax('x_1106871_financ_0.frAjax');
+            ga.addParam('sysparm_name', 'getUserGroups');
+            ga.addParam('sysparm_group', newValue); // Set parameter sysparm_group to newValue 
+			ga.addParam('sysparm_user', g_form.getValue('assigned_to'));
+            ga.getXML(groupLookupCallback);
+        } else {
+            g_form.setValue("assigned_to", "");
+        }
+    }
+}
+
+function groupLookupCallback(response) {
+    var result = response.responseXML.documentElement.getAttribute("answer");
+   
+    if (result == 'false') {
+        g_form.setValue("assigned_to", "");
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 14:28:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>805f273247eb71101c89dffe046d43ac</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Clear AssignedTo when AG changes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Finance Service Management" source="x_1106871_financ_0">aba95e8c471e31101c89dffe046d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Finance Service Management">aba95e8c471e31101c89dffe046d437d</sys_scope>
+        <sys_update_name>sys_script_client_805f273247eb71101c89dffe046d43ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 10:51:13</sys_updated_on>
+        <table>x_1106871_financ_0_finance_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
