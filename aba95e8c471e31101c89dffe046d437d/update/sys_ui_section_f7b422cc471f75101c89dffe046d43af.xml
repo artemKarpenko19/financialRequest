@@ -4,15 +4,155 @@
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-04 14:06:44</sys_created_on>
-            <sys_id>652bf9dd47e3f1101c89dffe046d43f3</sys_id>
+            <sys_created_on>2024-01-19 11:26:49</sys_created_on>
+            <sys_id>0d66ae0a47f775101c89dffe046d431e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">dc132ec8471f75101c89dffe046d43c7</sys_ui_formatter>
             <sys_ui_section caption="Finance Request" display_value="Finance Request" name="x_1106871_financ_0_finance_request" sys_domain="global" view="Default view">f7b422cc471f75101c89dffe046d43af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-04 14:06:44</sys_updated_on>
+            <sys_updated_on>2024-01-19 11:26:49</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-19 11:26:49</sys_created_on>
+            <sys_id>4966ae0a47f775101c89dffe046d431f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Request" display_value="Finance Request" name="x_1106871_financ_0_finance_request" sys_domain="global" view="Default view">f7b422cc471f75101c89dffe046d43af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-19 11:26:49</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-19 11:26:49</sys_created_on>
+            <sys_id>4d66ae0a47f775101c89dffe046d431f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Request" display_value="Finance Request" name="x_1106871_financ_0_finance_request" sys_domain="global" view="Default view">f7b422cc471f75101c89dffe046d43af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-19 11:26:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_for</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-19 11:26:49</sys_created_on>
+            <sys_id>4166ae0a47f775101c89dffe046d4320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Request" display_value="Finance Request" name="x_1106871_financ_0_finance_request" sys_domain="global" view="Default view">f7b422cc471f75101c89dffe046d43af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-19 11:26:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-19 11:26:49</sys_created_on>
+            <sys_id>4566ae0a47f775101c89dffe046d4320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Request" display_value="Finance Request" name="x_1106871_financ_0_finance_request" sys_domain="global" view="Default view">f7b422cc471f75101c89dffe046d43af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-19 11:26:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subcategory</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-19 11:26:49</sys_created_on>
+            <sys_id>4966ae0a47f775101c89dffe046d4320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Request" display_value="Finance Request" name="x_1106871_financ_0_finance_request" sys_domain="global" view="Default view">f7b422cc471f75101c89dffe046d43af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-19 11:26:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-19 11:26:49</sys_created_on>
+            <sys_id>4d66ae0a47f775101c89dffe046d4320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Request" display_value="Finance Request" name="x_1106871_financ_0_finance_request" sys_domain="global" view="Default view">f7b422cc471f75101c89dffe046d43af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-19 11:26:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-19 11:26:49</sys_created_on>
+            <sys_id>4166ae0a47f775101c89dffe046d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Request" display_value="Finance Request" name="x_1106871_financ_0_finance_request" sys_domain="global" view="Default view">f7b422cc471f75101c89dffe046d43af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-19 11:26:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-19 11:26:49</sys_created_on>
+            <sys_id>4566ae0a47f775101c89dffe046d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Request" display_value="Finance Request" name="x_1106871_financ_0_finance_request" sys_domain="global" view="Default view">f7b422cc471f75101c89dffe046d43af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-19 11:26:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-19 11:26:49</sys_created_on>
+            <sys_id>4966ae0a47f775101c89dffe046d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Request" display_value="Finance Request" name="x_1106871_financ_0_finance_request" sys_domain="global" view="Default view">f7b422cc471f75101c89dffe046d43af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-19 11:26:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-19 11:26:49</sys_created_on>
+            <sys_id>4d66ae0a47f775101c89dffe046d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Finance Request" display_value="Finance Request" name="x_1106871_financ_0_finance_request" sys_domain="global" view="Default view">f7b422cc471f75101c89dffe046d43af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-19 11:26:49</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Finance Request</caption>
